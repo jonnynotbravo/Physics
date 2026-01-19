@@ -339,7 +339,6 @@ a = \frac{F}{m}
 m = \frac{F}{a}
 \]
 
-
 \[
 F_{\text{net}} = \sum F \quad \text{(sum of all forces)}
 \]
