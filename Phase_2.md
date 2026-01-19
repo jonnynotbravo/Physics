@@ -168,7 +168,9 @@ Newton's three laws explain **why** objects move (or don't move) the way they do
 \[ F = ma \]
 
 or rearranged:
-\[ a = \frac{F}{m} \]
+\[
+a = \frac{F}{m}
+\]
 
 Where:
 - **F** = Net Force (newtons, N)
@@ -177,7 +179,10 @@ Where:
 
 **1 Newton (N)** = the force needed to accelerate 1 kg at 1 m/s²
 
-Also: \[ 1\text{ N} = 1\text{ kg} \cdot \text{m/s}^2 \]
+Also:  
+\[
+1\,\text{N} = 1\,\text{kg} \cdot \text{m/s}^2
+\]
 
 ---
 
@@ -292,8 +297,8 @@ The action-reaction forces don't cancel because they act on different things.
 - You push box: 10 N →
 - Box pushes you: 10 N ←
 - **Both move!** But who moves more depends on mass:
-  - \( a_{\text{box}} = \frac{10}{m_{\text{box}}} \)
-  - \( a_{\text{you}} = \frac{10}{m_{\text{you}}} \)
+  - \( a_{\text{box}} = \dfrac{10}{m_{\text{box}}} \)
+  - \( a_{\text{you}} = \dfrac{10}{m_{\text{you}}} \)
 - Lighter object accelerates more
 
 ---
@@ -321,12 +326,21 @@ The action-reaction forces don't cancel because they act on different things.
 
 ## 📐 Important Formulas Summary:
 
-\[ F = ma \]
+\[
+F = ma
+\]
 
-\[ a = \frac{F}{m} \]
 
-\[ m = \frac{F}{a} \]
+\[
+a = \frac{F}{m}
+\]
 
-\[ F_{\text{net}} = \sum F \text{ (sum of all forces)} \]
+\[
+m = \frac{F}{a}
+\]
 
+
+\[
+F_{\text{net}} = \sum F \quad \text{(sum of all forces)}
+\]
 ---
