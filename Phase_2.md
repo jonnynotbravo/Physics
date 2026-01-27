@@ -1,6 +1,6 @@
 # 🛠️ Phase 2: Classical Mechanics
 
-## 🔹 Topic 1: Motion (Kinematics)
+## Motion (Kinematics)
 
 **Kinematics** = describing motion without worrying about *why* it happens.
 
@@ -114,7 +114,7 @@ Motion is **relative** — it depends on the observer.
 6. Motion is relative to your reference frame
 
 ---
-# 🔹 Topic 2: Newton's Laws of Motion
+# Newton's Laws of Motion
 
 Newton's three laws explain **why** objects move (or don't move) the way they do.
 
@@ -624,7 +624,7 @@ No single formula — depends on situation
 No single formula — solve using Newton's 2nd Law (\( F = ma \))
 
 ---
-# 🔹 Topic 4: Energy
+# Energy
 
 Energy is one of the **most important concepts in all of physics**. It's the ability to do work, to cause change, to make things happen.
 
