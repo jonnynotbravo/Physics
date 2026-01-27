@@ -624,3 +624,375 @@ No single formula — depends on situation
 No single formula — solve using Newton's 2nd Law (\( F = ma \))
 
 ---
+# 🔹 Topic 4: Energy
+
+Energy is one of the **most important concepts in all of physics**. It's the ability to do work, to cause change, to make things happen.
+
+---
+
+## ⚡ What is Energy?
+
+**Energy** = the ability to do work or cause change
+
+### Key Points:
+- Energy is **not** a physical thing you can hold
+- It's a **property** (specifically, a calculated/derived property)
+- Energy is a **number we calculate** based on other factors (mass, speed, height, etc.)
+- Measured in **Joules (J)**
+
+\[ 1 \text{ J} = 1 \text{ kg} \cdot \text{m}^2/\text{s}^2 \]
+
+### How We Discovered Energy:
+1. People noticed moving things can do work (kinetic)
+2. People noticed height matters (potential)
+3. Realized these transform into each other
+4. Discovered heat is also a form of energy
+5. Found that the TOTAL of all forms is conserved
+
+**Energy isn't a "thing" we found — it's a pattern we noticed and gave a name.**
+
+---
+
+## 🔑 The Law of Conservation of Energy
+
+### The Most Important Law in Physics:
+
+**"Energy cannot be created or destroyed — only transformed from one form to another."**
+
+In a **closed system** (no energy enters or leaves), the total energy stays constant forever.
+
+### What This Means:
+- Energy constantly changes form (potential ↔ kinetic ↔ heat ↔ light, etc.)
+- But the **total amount** never changes
+- Energy never vanishes — it just spreads out or transforms
+
+### Formula:
+\[ E_{\text{total}} = PE + KE + \text{heat} + \text{sound} + ... = \text{constant} \]
+
+---
+
+## 🏔️ 1. Potential Energy (PE)
+
+### What is it?
+**Stored energy** due to an object's position or configuration.
+
+It's energy that has the **potential** to do work later.
+
+---
+
+### Gravitational Potential Energy
+
+Energy stored due to an object's **height** above a reference point.
+
+### Formula:
+\[ PE = mgh \]
+
+Where:
+- **PE** = potential energy (J)
+- **m** = mass (kg)
+- **g** = gravitational acceleration = 9.8 m/s²
+- **h** = height above reference point (m)
+
+### Key Points:
+- Higher up = more potential energy
+- Heavier object = more potential energy
+- **Reference point matters** — you choose where h = 0
+- PE is **relative** to your chosen reference
+- Only the **difference** in PE matters (tells you how much energy transforms)
+
+---
+
+### 🎢 Examples:
+
+**Ball held at height:**
+- Mass = 2 kg, height = 5 m
+- \( PE = mgh = 2 \times 9.8 \times 5 = 98 \text{ J} \)
+- If you drop it, this PE converts to kinetic energy
+
+**Water at top of waterfall:**
+- Has gravitational PE
+- As it falls: PE → KE
+- At bottom: KE can turn turbines (hydroelectric power)
+
+**Roller coaster at peak:**
+- Maximum PE, minimum KE (slow at top)
+- As it descends: PE → KE (speeds up)
+- At bottom: minimum PE, maximum KE (moving fast)
+
+**Two balls (one on ground, one on building):**
+- Ball on ground: PE = 0 J (using ground as reference)
+- Ball on building (20 m): PE = 196 J (if mass = 1 kg)
+- The ball on building has MORE energy because of its position
+
+---
+
+### Other Types of Potential Energy:
+
+**Elastic Potential Energy:**
+- Stored in stretched/compressed springs, rubber bands
+- Formula: \( PE_{\text{elastic}} = \frac{1}{2}kx^2 \)
+  - k = spring constant
+  - x = displacement from rest
+
+**Chemical Potential Energy:**
+- Stored in molecular bonds (food, fuel, batteries, gasoline)
+- Released during chemical reactions
+
+**Electrical Potential Energy:**
+- Stored in separated charges (batteries)
+
+---
+
+## 🏃 2. Kinetic Energy (KE)
+
+### What is it?
+Energy of **motion**. Any object that's moving has kinetic energy.
+
+### Formula:
+\[ KE = \frac{1}{2}mv^2 \]
+
+Where:
+- **KE** = kinetic energy (J)
+- **m** = mass (kg)
+- **v** = velocity (m/s)
+
+### Key Points:
+- Faster = much more KE (velocity is **squared**!)
+- Doubling speed = **4× the kinetic energy**
+- Heavier object = more KE (at same speed)
+- Direction doesn't matter (v² is always positive)
+
+---
+
+### 🚗 Examples:
+
+**Moving car:**
+- Mass = 1000 kg, velocity = 20 m/s
+- \( KE = \frac{1}{2} \times 1000 \times 20^2 = \frac{1}{2} \times 1000 \times 400 = 200{,}000 \text{ J} \)
+
+**Why speed limits matter:**
+- Car at 30 mph: certain KE
+- Same car at 60 mph (2× speed): **4× the KE**
+- Much harder to stop, much more damage in crashes
+
+**Why bullets are destructive:**
+- Small mass, but **very high velocity**
+- v² term makes KE huge despite low mass
+
+---
+
+## 🔄 Energy Transformations
+
+Energy constantly changes form. The total stays constant, but individual forms change.
+
+---
+
+### 🎢 Roller Coaster Example:
+
+**At the top:**
+- PE = maximum (high up)
+- KE = minimum (moving slowly)
+- Total = PE + KE
+
+**Falling down:**
+- PE decreases (losing height)
+- KE increases (speeding up)
+- **PE → KE**
+
+**At the bottom:**
+- PE = minimum (low height)
+- KE = maximum (moving fast)
+- Total = same as at top!
+
+**Throughout the ride:**
+\[ E_{\text{total}} = PE + KE = \text{constant} \]
+
+---
+
+### 🏀 Bouncing Ball:
+
+1. **Held at height:** PE = high, KE = 0
+2. **Falling:** PE → KE
+3. **Just before ground:** PE = 0, KE = maximum
+4. **Hitting ground:** KE → heat + sound + deformation
+5. **Bouncing up:** Remaining energy → PE (gravitational)
+6. **Each bounce:** Loses energy to heat/sound, doesn't bounce as high
+
+**Total energy still conserved** — just spread to surroundings as heat and sound!
+
+---
+
+### 🪨 Stone Falling from Building (20 m, 2 kg):
+
+| Position | Height (m) | PE (J) | Speed (m/s) | KE (J) | Total (J) |
+|----------|-----------|--------|-------------|--------|-----------|
+| **Top** | 20 | 392 | 0 | 0 | **392** |
+| **Middle** | 10 | 196 | ~14 | 196 | **392** |
+| **Bottom** | 0 | 0 | ~20 | 392 | **392** |
+| **After impact** | 0 | 0 | 0 | 0 | **392*** |
+
+*Energy transformed to: heat (~300 J), sound (~50 J), deformation (~42 J) = still 392 J total!
+
+---
+
+### 🚗 Car Example (Full Journey):
+
+**Starting with 50L gasoline = 1.65 billion J of chemical PE**
+
+| Stage | Chemical PE | Kinetic | Heat | Total |
+|-------|------------|---------|------|-------|
+| **Gas station** | 1.65 billion J | 0 | 0 | **1.65 billion J** |
+| **Engine starts** | 0 | 500 million J | 1.15 billion J | **1.65 billion J** |
+| **Cruising** | Decreasing | 500 million J | Increasing | **1.65 billion J** |
+| **After braking** | 0 | 0 | 1.65 billion J | **1.65 billion J** |
+
+**Energy flow:** Chemical → Motion → Heat (all ends up as heat in environment)
+
+**Why gas cars are inefficient:** ~70% wasted as heat immediately in combustion
+
+**Why electric cars are better:** Electric motors ~85-90% efficient (vs. 30% for combustion)
+
+**Regenerative braking (hybrids):**
+- Normal braking: KE → heat (wasted)
+- Regenerative: KE → electrical energy (captured in battery, ~80% recovered!)
+
+---
+
+## 💡 Work and Energy
+
+**Work** = energy transferred through force
+
+### Formula:
+\[ W = Fd \cos(\theta) \]
+
+Where:
+- **W** = work (J)
+- **F** = force (N)
+- **d** = displacement (m)
+- **θ** = angle between force and displacement
+
+### Simple case (force parallel to motion):
+\[ W = Fd \]
+
+---
+
+### Key Points:
+
+- Work = energy transferred
+- **Positive work** = energy added to object (force in direction of motion)
+- **Negative work** = energy removed from object (force opposes motion)
+- **Zero work** if:
+  - No displacement (d = 0)
+  - Force perpendicular to motion (θ = 90°)
+
+---
+
+### 🏋️ Examples:
+
+**Lifting a box:**
+- You apply upward force, box moves upward
+- You do **positive work** on box
+- Box gains PE
+
+**Lowering a box:**
+- Gravity does positive work (force and motion both down)
+- You do negative work (force up, motion down)
+- Box loses PE
+
+**Carrying box horizontally:**
+- You apply upward force, box moves horizontally
+- Force ⊥ motion → **zero work** (on the box's motion)
+
+---
+
+## ⚖️ Work-Energy Theorem
+
+**The net work done on an object equals its change in kinetic energy.**
+
+### Formula:
+\[ W_{\text{net}} = \Delta KE = KE_{\text{final}} - KE_{\text{initial}} \]
+
+### What This Means:
+- Net work positive → object speeds up
+- Net work negative → object slows down
+- Net work zero → speed stays constant
+
+---
+
+## 🎯 Why Conservation of Energy Matters
+
+### 1. **Predictions Without Details**
+- Don't need to track every force at every moment
+- Just know: energy at start = energy at end
+- Calculate final state directly!
+
+### 2. **Tells Us What's Impossible**
+- Ball can't bounce higher than dropped
+- Perpetual motion machines impossible
+- Can't get more energy out than you put in
+
+### 3. **Explains Why Things Stop**
+- Pendulum stops: energy → heat (air resistance, friction)
+- Car stops: KE → heat (brakes)
+- Energy still exists, just spread out
+
+### 4. **Universal Law**
+- Works for gravity, electricity, chemistry, nuclear, everything
+- Same principle across all of physics
+
+### 5. **Practical Applications**
+- Power plants: convert one form → another
+- Batteries: store and release energy
+- Engines: optimize conversions
+- All engineering based on energy conservation
+
+---
+
+## 📐 Important Formulas Summary:
+
+**Gravitational Potential Energy:**
+\[ PE = mgh \]
+
+**Kinetic Energy:**
+\[ KE = \frac{1}{2}mv^2 \]
+
+**Conservation of Energy:**
+\[ E_{\text{total}} = PE + KE + \text{other forms} = \text{constant} \]
+
+**Work:**
+\[ W = Fd \cos(\theta) \]
+\[ W = Fd \text{ (parallel forces)} \]
+
+**Work-Energy Theorem:**
+\[ W_{\text{net}} = \Delta KE \]
+
+---
+
+## 🔑 Key Takeaways:
+
+1. **Energy = ability to cause change** (calculated property, not physical substance)
+
+2. **Conservation: Energy cannot be created or destroyed**
+   - Only transforms from one form to another
+   - Total in closed system = constant
+
+3. **Two main types:**
+   - **PE** = stored energy (position/configuration)
+   - **KE** = energy of motion
+
+4. **Energy constantly transforms:**
+   - PE ↔ KE ↔ heat ↔ light ↔ sound ↔ chemical, etc.
+   - Total always conserved
+
+5. **Most energy ends up as heat:**
+   - Heat = energy spreading out randomly
+   - This is why things eventually stop (friction converts organized motion → random heat)
+
+6. **Work = energy transfer through force**
+
+7. **Conservation is the most powerful tool in physics:**
+   - Predict outcomes
+   - Know what's impossible
+   - Design efficient systems
+
+---
