@@ -996,3 +996,435 @@ Where:
    - Design efficient systems
 
 ---
+
+# 🔹 Momentum
+
+Momentum is another fundamental concept in physics. Like energy, it's **conserved** — but momentum works differently and is especially powerful for analyzing collisions and explosions.
+
+---
+
+## 🎯 What is Momentum?
+
+**Momentum** = mass in motion
+
+It's a measure of how much "oomph" a moving object has — how hard it is to stop.
+
+### Formula:
+\[ p = mv \]
+
+Where:
+- **p** = momentum (kg·m/s)
+- **m** = mass (kg)
+- **v** = velocity (m/s)
+
+### Key Points:
+- Momentum is a **vector** (has direction)
+- More mass = more momentum
+- More velocity = more momentum
+- **Direction matters** (unlike KE where v² eliminates direction)
+
+---
+
+## 🚗 Understanding Momentum
+
+### Example 1: Mass Matters
+- **Bicycle** (10 kg) at 5 m/s: p = 10 × 5 = **50 kg·m/s**
+- **Truck** (5000 kg) at 5 m/s: p = 5000 × 5 = **25,000 kg·m/s**
+
+**Truck has 500× more momentum** — much harder to stop!
+
+### Example 2: Velocity Matters
+- **Car** (1000 kg) at 10 m/s: p = **10,000 kg·m/s**
+- **Same car** at 30 m/s: p = **30,000 kg·m/s**
+
+**3× faster = 3× more momentum**
+
+---
+
+## 🔑 Momentum vs. Kinetic Energy
+
+Both involve mass and velocity, but they're fundamentally different:
+
+| Property | Formula | Velocity Dependence | Type | What It Measures |
+|----------|---------|-------------------|------|------------------|
+| **Momentum** | \( p = mv \) | Linear (v) | Vector (direction matters) | "Push" in a direction |
+| **Kinetic Energy** | \( KE = \frac{1}{2}mv^2 \) | Squared (v²) | Scalar (no direction) | Energy stored in motion |
+
+### Key Differences:
+
+**Double the speed:**
+- Momentum: doubles (2×)
+- KE: quadruples (4×)
+
+**Direction:**
+- Momentum: east vs. west = opposite signs (different momentum)
+- KE: east vs. west = same value (direction irrelevant)
+
+---
+
+## 💥 Critical Difference: Direction in Collisions
+
+### Two Cars Colliding Head-On:
+
+**Car A:** 1000 kg moving **east** at 20 m/s
+**Car B:** 1000 kg moving **west** at 20 m/s
+They crash and stop.
+
+**Momentum:**
+- Before: (+20,000) + (-20,000) = **0 kg·m/s**
+- After: **0 kg·m/s**
+- **Conserved!** ✓
+
+**Kinetic Energy:**
+- Before: 200,000 + 200,000 = **400,000 J**
+- After: **0 J**
+- **NOT conserved** — transformed to heat, sound, deformation
+
+**Key Insight:** Momentum cares about direction and cancels out. KE doesn't care about direction and all converts to other forms.
+
+---
+
+## ⚖️ Conservation of Momentum
+
+### The Law:
+**"In a closed system (no external forces), the total momentum before an event equals the total momentum after the event."**
+
+### Formula:
+\[ p_{\text{before}} = p_{\text{after}} \]
+
+Or more specifically:
+\[ m_1v_1 + m_2v_2 = m_1v_1' + m_2v_2' \]
+
+(Primed variables = after collision)
+
+---
+
+## 🎯 Key Points:
+
+1. **Total momentum never changes** (in isolated system)
+2. **Individual objects can gain/lose momentum** (but total stays same)
+3. **Direction matters** (opposite directions = opposite signs)
+4. **Works for ALL collisions** (momentum always conserved!)
+
+---
+
+## 🧊 Example 1: Ice Skaters Pushing Apart
+
+**Before:**
+- Skater A (50 kg): v = 0
+- Skater B (50 kg): v = 0
+- **Total momentum = 0 kg·m/s**
+
+**After pushing:**
+- Skater A: moves left at 2 m/s
+- Skater B: moves right at ??? m/s
+
+**Conservation:**
+\[ 0 = (50)(-2) + (50)(v_B) \]
+\[ 0 = -100 + 50v_B \]
+\[ v_B = 2 \text{ m/s (right)} \]
+
+**Both move away at same speed!**
+Total momentum = -100 + 100 = **0** ✓
+
+---
+
+## 🎱 Example 2: Pool Ball Collision
+
+**Before:**
+- Ball 1 (moving): 0.2 kg at 5 m/s →
+- Ball 2 (still): 0.2 kg at 0 m/s
+
+**Total momentum before:**
+\[ p = (0.2)(5) + 0 = 1 \text{ kg·m/s} \]
+
+**After:**
+- Ball 1 stops: v = 0 m/s
+- Ball 2 moves: v = ??? m/s
+
+**Conservation:**
+\[ 1 = (0.2)(0) + (0.2)(v_2) \]
+\[ v_2 = 5 \text{ m/s} \]
+
+**Moving ball stopped, stationary ball picked up all its momentum!**
+
+---
+
+## 🚗 Example 3: Car Crash (Sticking Together)
+
+**Before:**
+- Car A: 1000 kg at 20 m/s → (positive)
+- Car B: 1500 kg at 10 m/s ← (negative)
+
+**Total momentum:**
+\[ p = (1000)(20) + (1500)(-10) = 20{,}000 - 15{,}000 = 5{,}000 \text{ kg·m/s →} \]
+
+**After (stuck together):**
+- Combined mass = 2500 kg
+- Combined velocity = ??? m/s
+
+**Conservation:**
+\[ 5{,}000 = (2500)(v) \]
+\[ v = 2 \text{ m/s →} \]
+
+**Both cars move together at 2 m/s to the right**
+(Car A had more momentum, so final direction is right)
+
+---
+
+## 💥 Types of Collisions
+
+When objects collide, **momentum is ALWAYS conserved**. But what happens to **kinetic energy** depends on the collision type:
+
+---
+
+## 🎾 1. Elastic Collisions
+
+### Definition:
+**Both momentum AND kinetic energy are conserved.**
+
+### Characteristics:
+- No energy lost to heat, sound, or deformation
+- Objects bounce off each other
+- Total KE before = Total KE after
+- **Perfect, "bouncy" collisions**
+
+### Formulas:
+\[ p_{\text{before}} = p_{\text{after}} \] ✓
+\[ KE_{\text{before}} = KE_{\text{after}} \] ✓
+
+---
+
+### 🎱 Example: Pool Balls
+
+**Before:**
+- Ball 1: 0.2 kg at 5 m/s →
+- Ball 2: 0.2 kg at 0 m/s
+
+**Momentum before:** 1 kg·m/s
+**KE before:** 2.5 J
+
+**After:**
+- Ball 1 stops: 0 m/s
+- Ball 2 moves: 5 m/s →
+
+**Momentum after:** 1 kg·m/s ✓
+**KE after:** 2.5 J ✓
+
+**Both conserved = elastic collision!**
+
+---
+
+### Real-World Elastic Collisions:
+- Pool/billiard balls (very close)
+- Steel ball bearings
+- Atoms/molecules (microscopic level)
+- Bouncing superballs
+
+**Note:** Perfect elastic collisions are rare in real life.
+
+---
+
+## 🚗 2. Inelastic Collisions
+
+### Definition:
+**Momentum is conserved, but kinetic energy is NOT.**
+
+### Characteristics:
+- Some KE transforms to other forms (heat, sound, deformation)
+- Total KE after < Total KE before
+- Objects might stick together or deform
+- **Most real-world collisions are inelastic**
+
+### Formulas:
+\[ p_{\text{before}} = p_{\text{after}} \] ✓ (momentum still conserved!)
+\[ KE_{\text{before}} > KE_{\text{after}} \] (some KE lost)
+
+---
+
+### 🚗 Example: Car Crash (Perfectly Inelastic)
+
+**Perfectly inelastic** = objects stick together after collision (maximum KE loss)
+
+**Before:**
+- Car A: 1000 kg at 20 m/s →
+- Car B: 1000 kg at 0 m/s (parked)
+
+**Momentum before:** 20,000 kg·m/s
+**KE before:** 200,000 J
+
+**After (stuck together):**
+- Combined: 2000 kg at 10 m/s →
+
+**Momentum after:** 20,000 kg·m/s ✓ (conserved!)
+**KE after:** 100,000 J
+
+**KE lost = 100,000 J** → transformed to heat, sound, deformation
+
+**Energy still conserved** (didn't disappear), just no longer kinetic!
+
+---
+
+## 🎯 Collision Comparison Table:
+
+| Type | Momentum Conserved? | KE Conserved? | What Happens | Examples |
+|------|-------------------|--------------|--------------|----------|
+| **Elastic** | ✓ Yes | ✓ Yes | Objects bounce, no energy lost | Pool balls, atoms |
+| **Inelastic** | ✓ Yes | ✗ No | Some KE → heat/sound | Most real collisions |
+| **Perfectly Inelastic** | ✓ Yes | ✗ No (max loss) | Objects stick together | Car crashes, clay |
+
+---
+
+## 🎯 Why Momentum Matters
+
+---
+
+## 1. Explains Rockets and Propulsion
+
+### 🚀 Rocket in Space:
+
+No air, no ground — how does it move?
+
+**Answer: Conservation of Momentum!**
+
+**Before firing:**
+- Rocket + fuel: 10,000 kg at 0 m/s
+- Total momentum = **0 kg·m/s**
+
+**After firing (expelling gas backward):**
+- Gas: 100 kg at -1000 m/s ← (backward)
+- Rocket: 9900 kg at ??? m/s →
+
+**Conservation:**
+\[ 0 = (100)(-1000) + (9900)(v) \]
+\[ v = 10.1 \text{ m/s →} \]
+
+**Rocket moves forward by throwing mass backward!**
+
+---
+
+## 2. Predicts Outcomes Even When Energy Is Lost
+
+In inelastic collisions, we **don't need to track where energy went** — momentum still tells us the outcome!
+
+### Example: Catching a Ball
+
+**Before:**
+- Ball: 0.5 kg at 20 m/s →
+- You: 70 kg at 0 m/s
+
+**Total momentum = 10 kg·m/s**
+
+**After (you catch it):**
+- You + ball: 70.5 kg at ??? m/s
+
+**Conservation:**
+\[ 10 = (70.5)(v) \]
+\[ v = 0.14 \text{ m/s ←} \]
+
+**You move backward at 0.14 m/s!**
+
+(Lots of KE lost to heat/sound, but we don't need to track it!)
+
+---
+
+## 3. Reveals Forces in Collisions
+
+### Newton's Second Law (Advanced Form):
+\[ F = \frac{\Delta p}{\Delta t} \]
+
+Where:
+- **F** = force (N)
+- **Δp** = change in momentum (kg·m/s)
+- **Δt** = time interval (s)
+
+### Key Insight:
+**Same momentum change over shorter time = bigger force**
+**Same momentum change over longer time = smaller force**
+
+---
+
+## 🥊 Example: Why Airbags Save Lives
+
+**Car crash:** You go from 30 m/s → 0 m/s
+
+Your momentum change:
+\[ \Delta p = (70)(0 - 30) = -2100 \text{ kg·m/s} \]
+
+---
+
+**Without airbag (hit dashboard):**
+- Stop in **0.01 seconds**
+- \[ F = \frac{-2100}{0.01} = -210{,}000 \text{ N} \]
+- **Huge force = death**
+
+**With airbag:**
+- Stop in **0.1 seconds** (10× longer)
+- \[ F = \frac{-2100}{0.1} = -21{,}000 \text{ N} \]
+- **10× less force = survivable!**
+
+**Same momentum change, but spreading it over more time reduces force dramatically.**
+
+---
+
+## 🛡️ More Safety Applications:
+
+**All work by increasing Δt to decrease F:**
+
+- **Crumple zones in cars** → collision takes longer → less force on passengers
+- **Padding/helmets** → impact takes longer → less force on head
+- **Landing with bent knees** → stopping takes longer → less force on legs
+- **Boxing gloves** → contact time longer → reduced force
+- **Karate breaking boards** → very short contact → huge force → board breaks
+
+---
+
+## 📐 Important Formulas Summary:
+
+**Momentum:**
+\[ p = mv \]
+
+**Conservation of Momentum:**
+\[ p_{\text{before}} = p_{\text{after}} \]
+\[ m_1v_1 + m_2v_2 = m_1v_1' + m_2v_2' \]
+
+**Force from Momentum Change:**
+\[ F = \frac{\Delta p}{\Delta t} \]
+
+**Elastic Collision:**
+- \( p_{\text{before}} = p_{\text{after}} \) ✓
+- \( KE_{\text{before}} = KE_{\text{after}} \) ✓
+
+**Inelastic Collision:**
+- \( p_{\text{before}} = p_{\text{after}} \) ✓
+- \( KE_{\text{before}} > KE_{\text{after}} \) (some lost)
+
+---
+
+## 🔑 Key Takeaways:
+
+1. **Momentum = mass × velocity** (vector, direction matters)
+
+2. **Always conserved in collisions** (unlike KE which can transform)
+
+3. **Momentum vs. KE:**
+   - Momentum: cares about direction, always conserved
+   - KE: doesn't care about direction, only conserved in elastic collisions
+
+4. **Elastic collisions:** Both momentum and KE conserved (rare)
+
+5. **Inelastic collisions:** Only momentum conserved, KE lost to heat/sound (common)
+
+6. **Perfectly inelastic:** Objects stick together (maximum KE loss)
+
+7. **Explains rockets:** Throw mass backward → move forward (even in space!)
+
+8. **Safety devices work via F = Δp/Δt:**
+   - Increase time (Δt) → decrease force (F)
+   - Airbags, crumple zones, padding all extend collision time
+
+9. **Predicts outcomes without tracking energy loss:**
+   - Don't need to know where heat/sound went
+   - Just track mass × velocity
+
+---
